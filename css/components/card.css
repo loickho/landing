@@ -1,0 +1,25 @@
+.card {
+  width: 220px;
+  /* height: 260px; */
+  margin-right: 10px;
+  box-shadow: 2px 4px 10px;
+  border-radius: 8px;
+}
+
+.card-img {
+  width: 100%;
+  object-fit: cover;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.card p {
+  font-weight: bold;
+  font-size: 14px;
+  padding-left: 7px;
+}
+
+.card:hover {
+  transition: .5s ease-out;
+  font-size: .95em;
+}

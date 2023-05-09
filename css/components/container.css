@@ -1,0 +1,24 @@
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.container-cards {
+  display: flex;
+  justify-content: space-around;
+  flex-shrink: 0;
+}
+
+.container-banner {
+  position: relative;
+  position: auto auto;
+  background-color: rgba(133, 137, 181, 0.756);
+  border-radius: 20px;
+  padding: 50px;
+}
+
+.container-footer {
+  background-color:rgba(133, 137, 181, 0.756);
+  position: auto auto;
+  background-size: cover;
+}
